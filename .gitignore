@@ -1,0 +1,23 @@
+
+# Python 虛擬環境
+.venv/
+.venv_failed/
+
+# Python 快取
+__pycache__/
+*.py[cod]
+
+# 本機備份
+*_backup.py
+
+# 編輯器及系統暫存
+.vscode/
+.DS_Store
+
+# Streamlit 本機設定
+.streamlit/secrets.toml
+
+# 保留 RAG 正式資料與索引
+!RAG/news.db
+!RAG/news_data.json
+!RAG/news_list.json
